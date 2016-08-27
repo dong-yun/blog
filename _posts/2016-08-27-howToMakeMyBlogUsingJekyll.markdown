@@ -4,7 +4,7 @@ title:  "Github 에 블로그 개설하기 ( with jekyll )"
 date:   2016-08-27 16:14:00 +0900
 categories: github/jekyll
 ---
-* jekyll home page : <https://jekyllrb.com/>
+* jekyll home page : <http://jekyllrb-ko.github.io>, <https://jekyllrb.com>
 * markdown 참고 : <http://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/>
 
 
