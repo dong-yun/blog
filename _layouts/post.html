@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% include facebook-init.html %}
+
+<div class= container>
+
+    <div class="content{% if page.photo_url %} photo-post{% endif %}">
+        <div class="post single">
+            {% unless page.title_hidden %}
+            <h1>{{ page.title }}</h1>
+            <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {{ page.date | date: "%b %d, %Y" }}
+            </info>
+            {% endunless %}
+            <div class="body posts">{{ content }}</div>
+            <!-- <div class="post single"></div> -->
+        </div>
+        <!-- <div class="content"></div> -->
+    </div>
+    <!-- <div class="breaker"></div> -->
+    <div class="breaker"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.5&appId=171549706605974";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+{% if site.comments %}
+<hr/>
+<h4>Comments</h4>
+<div class="fb-comments" data-href="{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+{% endif %}
