@@ -24,13 +24,13 @@ categories: github/jekyll
 * syntax highlighting 을 위해서 rouge, python, pip, pygments 를 설치함 (옵션인듯)
     
 
-#### 4. 2번에서 clone 한 디레토리를 이동하여 jekyll 서버를 구동함
+#### 4. 2번에서 clone 한 디렉토리를 이동하여 jekyll 서버를 구동함
 
 * 명령어 
     * <code>jekyll serve -w</code>
 * 나의 경우 server 구동시 필요한 library 나 버전이 안맞는 듯한 오류가 발생하여 추가로 bundle 을 설치함
-    >   require': cannot load such file -- bundler (LoadError)...<br> 
-        Could not find gem 'minima x86-mingw32'....
+    * <code>require': cannot load such file -- bundler (LoadError)...</code>
+    * <code>Could not find gem 'minima x86-mingw32'.... </code>
     * 명령어: 
         * <code>gem install bundler </code>
         * <code>bundler install</code>
