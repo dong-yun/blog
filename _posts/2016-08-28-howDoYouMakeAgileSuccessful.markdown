@@ -4,6 +4,10 @@ layout: post
 title: "So, How Do You Make Agile Successful? (작업중)" 
 date: 2016-08-28 10:25:00 +0900
 categories: agile
+tags:
+- agile
+- scrum
+- 토요타
 
 ---
 

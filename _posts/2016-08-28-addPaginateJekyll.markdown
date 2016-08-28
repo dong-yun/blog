@@ -4,6 +4,9 @@ layout: post
 title: "Jekyll 페이징 (jekyll-paginate)" 
 date: 2016-08-28 16:23:00 +0900
 categories: jekyll
+tags:
+- jekyll
+- jekyll-paginate
 
 ---
 
