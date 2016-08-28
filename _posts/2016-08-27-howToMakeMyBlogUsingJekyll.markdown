@@ -1,9 +1,11 @@
 ---
 
-layout: post title: "Github 에 블로그 개설하기 ( with jekyll )" date: 2016-08-27 16:14:00 +0900
-
+layout: post 
+title: "Github 에 블로그 개설하기 ( with jekyll )" 
+date: 2016-08-27 16:14:00 +0900
 categories: github/jekyll
--------------------------
+
+----
 
 -	[지킬로 깃허브에 무료 블로그 만들기](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
 -	jekyll home page : http://jekyllrb-ko.github.io, https://jekyllrb.com

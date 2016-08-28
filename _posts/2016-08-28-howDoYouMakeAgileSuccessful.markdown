@@ -1,9 +1,11 @@
 ---
 
-layout: post title: "So, How Do You Make Agile Successful?" date: 2016-08-28 10:25:00 +0900
-
+layout: post 
+title: "So, How Do You Make Agile Successful?" 
+date: 2016-08-28 10:25:00 +0900
 categories: Agile
------------------
+
+---
 
 ---
 
