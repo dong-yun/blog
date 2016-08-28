@@ -11,14 +11,14 @@ categories: jekyll
 
 #### 1. GitHub 에 계정을 만들고 블로그로 사용할 프로젝트를 생성
 
--	http://dogfeet.github.io/articles/2012/github-pages.html 에 잘 설명이 되어 있음
+-	<http://dogfeet.github.io/articles/2012/github-pages.html> 에 잘 설명이 되어 있음
 -	자동으로 페이지 만들기' 까지 참고 하였음
 
 #### 2. 1번에서 만든 블로그 프로젝트를 local 에 clone
 
 #### 3. local 에서 jekyll 서버를 돌리기 위해서 다음 url 을 참고함
 
--	http://jekyll-windows.juthilo.com/
+-	<http://jekyll-windows.juthilo.com/>
 -	위 사이트에서는 ruby 를 설치하고, ruby gem 을 사용해 jekyll 을 설치함
 -	syntax highlighting 을 위해서 rouge, python, pip, pygments 를 설치함 (옵션인듯)
 
@@ -35,7 +35,7 @@ categories: jekyll
 
 #### 5. 1번에서 자동으로 생성한 페이지가 마음에 안들어서 jekyll 을 사용해 blog 를 만들어 올리기로 함
 
--	http://halryang.net/Start-Blogging-With-Jekyll/
+-	<http://halryang.net/Start-Blogging-With-Jekyll/>
 -	명령어
 	-	<code>jekyll new blog</code>
 -	새로 만들어진 source 를 clone 한 곳에 붙여 넣고 jekyll 서버를 구동하여 동작 확인
