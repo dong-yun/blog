@@ -38,6 +38,9 @@ Key takeaways
 The essence of Aile
 -------------------
 
+
+
+
 Scrum traps
 -----------
 

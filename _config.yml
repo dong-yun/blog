@@ -30,3 +30,11 @@ markdown: kramdown
 theme: minima
 
 comments: true
+
+# highlighter: pygments
+
+# paging
+gems: [jekyll-paginate]
+
+paginate: 5
+paginate_path: "paging/page:num"

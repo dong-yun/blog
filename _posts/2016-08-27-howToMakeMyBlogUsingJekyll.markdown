@@ -6,8 +6,8 @@ categories: jekyll
 ---
 
 -	[지킬로 깃허브에 무료 블로그 만들기](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
--	jekyll home page : http://jekyllrb-ko.github.io, https://jekyllrb.com
--	markdown 참고 : http://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/
+-	jekyll home page : [한글 홈페이지](http://jekyllrb-ko.github.io), [영문 홈페이지](https://jekyllrb.com)
+-	markdown 참고 : [wordpress markdown reference](http://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/)
 
 #### 1. GitHub 에 계정을 만들고 블로그로 사용할 프로젝트를 생성
 
