@@ -34,6 +34,7 @@ blog.iml
 
 # IntelliJ
 /out/
+.idea/*
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -50,4 +51,3 @@ fabric.properties
 _site/
 .sass-cache/
 .jekyll-metadata
-
