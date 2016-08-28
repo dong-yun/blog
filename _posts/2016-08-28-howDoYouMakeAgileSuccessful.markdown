@@ -7,7 +7,7 @@ categories: Agile
 
 ---
 
----
+<hr/>
 
 얼마전 부터 코드리뷰를 시작하게 되었다. 또 다른 부서에서는 아침마다 간이 화이트보드에 포스트잇을 붙여가면서 scrum 미팅을 하고 있다. 그리고 과제를 진행하면서 sprint 니 phase 하는 용어를 쓰고 있다.
 
@@ -17,7 +17,7 @@ categories: Agile
 
 무엇이 문제일까? 이와 관련된 듯한 기사가 있어 포스팅 한다.
 
----
+<hr/>
 
 -	원문 : [So, How Dow You make Agile Successful?](https://www.infoq.com/articles/how-make-agile-successful?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
 

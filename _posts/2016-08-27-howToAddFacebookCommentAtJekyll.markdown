@@ -2,7 +2,7 @@
 layout: post
 title:  "Facebook Comment 와 Jekyll"
 date:   2016-08-27 20:10:00 +0900
-categories: github/jekyll
+categories: jekyll
 ---
 
  * 참고 사이트 : <https://joshuacox.github.io/jekyll/2015/11/28/facebook-comments-and-jekyll/>
