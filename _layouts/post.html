@@ -40,5 +40,5 @@ layout: default
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <h4>Comments</h4>
-<div class="fb-comments" data-href="https://dong-yun.github.io{{ page.url }}" data-numposts="5" data-width="100%"></div>
+<div class="fb-comments" data-href="https://dong-yun.github.io{{ page.url | prepend: site.baseurl  }}" data-numposts="5" data-width="100%"></div>
 {% endif %}
