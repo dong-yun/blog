@@ -1,7 +1,7 @@
 ---
 
 layout: post 
-title: "코딩을 지탱하는 기술 1장" 
+title: "코딩을 지탱하는 기술 - 컬럼" 
 date: 2016-08-29 21:58:00 +0900 
 categories: books 
 tags: 

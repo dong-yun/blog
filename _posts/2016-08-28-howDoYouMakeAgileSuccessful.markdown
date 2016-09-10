@@ -1,8 +1,8 @@
 ---
 
 layout: post 
-title: "So, How Do You Make Agile Successful? (작업중)" 
-date: 2016-08-28 10:25:00 +0900
+title: "So, How Do You Make Agile Successful?" 
+date: 2016-09-10 10:25:00 +0900
 categories: agile
 tags:
 - agile
@@ -126,17 +126,216 @@ Scrum 의 성공은 자기조직화된 팀(self-organizing teams) 에 달려있�
 Self-organizing team
 --------------------
 
+Scrum 은 사람들을 교차기능팀(cross-functional teams : 조직내 서로 다른 부서에서 온 소수의 사람으로 구성된 팀) 으로 그룹 짓는다.
+만약 팀이 필요한 모든 부분에 전문적이라면, 동기 이론에 따라 행복하게 Self-organizing 되어야 한다. 하지만, 이론과 실제는 다르다.
+
+만약 팀이 관리시스템이나 특정 소프트웨어 로부터 지시를 받는 것에 익숙하다면, 뜻밖의 자유에 어쩔 줄 모를 수 있다.
+스파이더맨에서 말하듯이 '큰 힘에는 큰 책임' 이 따른다. 
+문제가 있는 팀의 사람들은 스스로 결정하고 싶어하지 않는다.
+왜냐햐면 책임을 지고 싶지 않기 때문이다.
+
+Scrum 을 통한 관리가 Self-organizing 를 보장하진 않는다. 이것이 실현되기 위해 사람들 사이에 많은 신뢰를 쌓는 과정이 필요하다.
+이것이 바로 좋은 Agile의 결과이지 전제가 아니다.
+
+관리를 통해 팀에게 힘을 실어 줄 수 있게 하고자 한다고 가정하자. 사실대로 말하자면 이건 때때로 립서비스에 불과할 수 있다.
+파렴치한 매니저들이 뒤에서 Agile 의 변화를 수용하기 위해 더 일하라고 선동하는 반면, 관리 상태인 팀들은꾸준한 페이스로 일 할 수 있는 힘이 있다.
+결과적으로 팀은 일이 마무리 될 때까지 매번 "sprint" 해야한다. 마지막에만 "sprint" 하는 과거 "waterfall" 방식으로 돌아가고 싶어하는 것이 이상할 것도 없다.
+
+
 User story
 ----------
+
+User Story 의 목적은 사용자와 팀 사이의 대화를 촉진 시키는 것이다. 
+사용자에게 "무엇을 원하는가?" 라는 요구사항을 이끌어 내는 것은 어렵다. 
+"이 부분의 처음부터 끝까지 어떻게 수행할지 말해주세요" 라는 이야기 형식을 사용하는 것이 요소들과 의견에 대해 듣기 더 쉬운 방법이다.
+
+ > 1. 모든 것은 사용자 관점에서 봐야 한다. 사용자가 소프트웨어에 대한 기술을 항상 알고 있는 것이 아니라는 것은 인정하자. 그들은 좋아보이거나 나빠보이는 것은 얘기 하지만, 하나하나 자세한 기술적 요소까지 정의내릴 수 없다.
+당신이 이 이야기에 2점을 준다면, 사용자는 13점을 준다. 왜냐면 당신은 좀 더 모듈화 하고 테스트하기 쉽게 하기 위해 코드를 손볼 필요가 있지만, 사용자는 이해하지 못할 것이기 때문이다.
+
+몇몇 팀들은 코드의 품질을 개선하거나 기술적으로 의심이 가는 부분을 줄이기 위해 "technical stories"에 호소한다. "technical stories"를 만들어내는 것은 여전히 비즈니스와 IT 사이에 거리가 있다는 것을 의미한다.
+"technical stories" 와 "user stories" 나란히 만드는 것은 "technical stories" 이 "user stories" 보다 나중에 쓰인다거나 희생될 수 있다는 환상을 만들어낸다.
+
+ > 2. 비지니스가 장기적인 가치보다 단기적인 가치를 편애 하는 한, 사이의 간극은 쉽게 줄어들지 않을 것이다.
+
+Scrum 에서, user stories 는 반복의 처음에 다듬어진다. 이것이 user stories 의 다음 단계에 집중 한다는 것을 의미하진 않는다. 현재 iteration 에서 중요한 needs 를 찾아내는 것이 실패하는 것은 나중에 큰 혼란이 초래될 수 있다.
+
 
 Meetings
 --------
 
+미팅 - 아마도 Scrum 에서 가장 불만인 부분일 것이다.
+매일 아침에 하는 미팅, 백로그 정리 회의, 계획 미팅, 리뷰 미팅, 회고 모임 - 끝나긴 하려나?
+
+내 경험으로는, 작은 팀안에서 사람들은 누가 나에게 도움이 될 것인지 다른 사람이 무엇을 할 것인지 안다.
+그들은 서로 알게될 기회가 많이 있다.
+매일 스탠드업 미팅을 할 필요가 없다.
+심지어 스탠드업 미팅은 15분임에도 불구하고, 15분이 넘기도 한다. 
+엔지니어들은 "flow" 안에서 몰입이 이루어져 가장 효과적이다. 이 상태에서 문제를 푸는데 모든 것을 바친다.
+매일 아침 계획된 스탠드업이 마치 방햬를 위해 계획 된 것 같고, 이것은 엔지니어들이 "flow" 상태로 빠지기 힘들게 한다. 
+
+미팅이 성공적으로 개최되었다고 말하긴 쉽다.
+단지 사람들이 참여하고 있고 그들의 의견을 내는 것에 두려워하지 않는 지 관찰하라.
+만일 사람들이 폰을 가지고 놀고 있거나 졸린 눈을 하고 있다면, 미팅으로 그들을 고문시키기 보다 그들을 참여시킬 방법을 생각하라.
+
+
 Velocity
 --------
+
+A consistent velocity is the Holy Grail for project managers, but unfortunately, it is not always achievable. 
+If a team has done a similar project before and has advanced technical skills, the velocity diagram might be consistent. 
+But in reality, a velocity chart might look like the following:
+
+![alt StoryPoint](https://cdn.infoq.com/statics_s1_20160831-0533u1/resource/articles/how-make-agile-successful/en/resources/72.jpg)
+
+The team starts to discover user stories as it goes along, so the burn down line (the blue one) at first looks like a burn up line! 
+I guess there should be a point where the burn down line should start burning down, but the location of the point would be based on the nature of the project.
+
+The trouble with velocity charts is that it can be so easily abused. 
+Project managers will push teams to generate such charts so they can make “reliable” predictions. 
+But you know software engineers are smart enough to game any metrics when push comes to shove (see The Original Sin of Software Metrics).
+
 
 Micromanagement
 ---------------
 
+“What have you done yesterday?”
+
+“What do you plan to do today?”
+
+“Why haven’t you done what you said you were going to do yesterday?”
+
+“Why is this story 13 points? Someone has done something like this with 5 points?”
+
+You see, with daily standup, story point size, and a velocity chart, it is so easy to turn the whole Scrum process into micromanagement. 
+It is worse than it was in Waterfall days, because now you have to justify your work every day! 
+Morale and innovation are killed in this day-after-day grinding process.
+
+This kind of micromanagement hurts senior engineers most. 
+Senior engineers know from experience 
+how to approach a technical issue, 
+how to break things down into chunks of work, 
+how to plan their work based on those chunks, and at what moment they should stop writing feature code and start refactoring. 
+I would like them to share their thinking process so that junior engineers can learn from them, 
+but I would not, for the purpose of a neat and pretty burn down chart, 
+ask them to break small things down into even smaller tasks or to make up “technical stories” to be approved 
+before they start working on them (unless of course the “technical stories” are of high impact; 
+but if so, senior as they are, they must know when to bring them up and involve others in the discussion).
+
+
 Invest on skills, not on processes
 ----------------------------------
+
+Strapping a process, a strict one like Scrum, on the same people having the same mindset and skillset, 
+and expecting a miraculous result (capable of embracing changes) is not realistic. 
+There are two layers of Agile, each calling for different mindset and skills.
+
+> 1. Product level. One of the common misconceptions I heard is “we have a fixed scope, so we can’t be agile”. 
+To this, my question is “Is this fixed scope guaranteed to deliver the value that it promises, or does it contain assumptions?” 
+If a product manager clings to his/her list of features, it is more likely that he/she doesn’t know which feature will strike gold, 
+and so he/she wants to deliver them all. Even if you have a feature list directly from end users, 
+chances are that they will change their minds upon seeing or using these features.
+ In Agile, product development calls for an experimental mindset, treating features as assumptions to be validated. 
+ It will be very discomforting for someone who is accustomed to a feeling of certainty (even if it is just an illusion) to transition to this sort of trial-and-error style. 
+ Besides the mindset change, the product team and the delivery team also need to practice and master the skills required to validate assumptions quickly.
+ Just like a scientific experiment, they need to first have a hopeful hypothesis, design an experiment, and gather data to prove or disprove the hypothesis.
+ This structured approach of “trial-and-error” will ease the fear of chaos.
+> 2. Delivery level. Since Scrum is so easily misused despite its good intensions, if one is brave enough to try Scrum, 
+I suggest trying CICD (continuous integration and continuous delivery) at the same time. 
+If your business model doesn’t allow you to continuously deliver your product to end users,
+ continuously delivering the product to a demo environment or staging environment is still useful. 
+CICD counteracts Scrum traps in the following ways:
+>> 1. It balances the “user centric” bias. User stories encourage users’ participation and make sure software is focused on maximizing that elusive 20% of features, 
+but it doesn’t mean users know how to or even have the right to direct development work. 
+To make CICD successful, code has to be maintained healthy. 
+Accumulated technical debt will throw a wrench into the CICD chain. If technical debt is ignored and piled on, the CICD chain will quickly break.
+>> 2. CICD really challenges teams’ capabilities. 
+It requires advanced technical skills to oil the chain and make it run smoothly.
+It requires the product to be well-designed and written for testability. 
+What emerges from the CICD chain is working software, which is what really should be measured, not story points or velocity charts.
+
+One good thing about CICD is that it contains a lot of information which is naturally captured from teams’ actions, for example:
+
+> 1. From the source control system, you can perform code static analysis and understand if technical debt is accumulating over time; 
+you can also get information as to how actively team members are participating in code reviews. For example, 
+if you are using Git, you can analyze how quickly pull requests are merged and how many comments are posted. 
+This can give you a clue as to whether teams are following good practices and working together closely.
+> 2. From the build system, you can see how many builds fail each day and how quickly a failed build is fixed. 
+This will give you a clue as to code quality and teams’ discipline.
+> 3. From the defect system, you can analyze how many defects are captured by automation and how many by manual tests. 
+You can further categorize defects into groups such as usability defects, security defects, performance defects, and functional defects. 
+Each group might point to areas that teams need to strengthen.
+
+One good way to hone your systems thinking skills is to gather information from multiple areas and analyze their relationship, 
+instead of just focusing on one set of information (such as velocity) and optimizing one single part.
+
+A common problem that affects CICD is lack of automation or lack of stable automation. 
+A manager without systems-thinking skills will simply push for teams to write more automation tests. 
+What is wrong with this approach? It violates the 11 laws of systems-thinking (Senge):
+
+> 1. Today's problems come from yesterday's solutions.
+> 2. The harder you push, the harder the system pushes back.
+> 3. Behavior grows better before it grows worse.
+> 4. The easy way out leads back in.
+> 5. The cure can be worse than the disease.
+> 6. Faster is slower.
+> 7. Cause and effect are not always closely related in time and space.
+> 8. Small changes can produce big results – but the areas of highest leverage are often the least obvious.
+> 9. You can have your cake and eat it too – but not all at once.
+> 10. Dividing an elephant in half does not produce two small elephants.
+> 11. There is no blame.
+
+Every software manager will probably have witnessed several corpses on the journey to accumulated technical debt; 
+they should in theory understand the damage resulting from technical debt. 
+So why is it so hard for them to resist the temptation of a symptomatic fix – in this example, pushing teams to write more automation? 
+Part of the reason lies in the above laws, in particular, law 3 (behavior grows better before it grows worse) and law 7 (cause and effect are not always closely related in time and space). 
+Having more automation tests, even if they are badly written, can be useful in the short term, until the burden of maintenance outweighs the benefits. 
+Hopefully with CICD, the feedback delay will be shortened and the accumulating technical debt will be revealed quickly.
+
+Part of the reason is in law 4 (the easy way out leads back in). The more experienced a manager is, the more entrenched his mental mode might be. 
+"Mental models" are deeply ingrained assumptions, generalizations, or even pictures or images that influence how we understand the world and how we take action. 
+Very often, we are not consciously aware of our mental models or the effects they have on our behavior (Senge).
+In this example, what is the underlying mental model for the manager?
+
+![alt ](https://cdn.infoq.com/statics_s1_20160831-0533u1/resource/articles/how-make-agile-successful/en/resources/53.jpg)
+
+As pointed out by Peter Senge, the manager probably won’t even be aware of his mental model, 
+he certainly won’t admit that he thinks testers are lazy or stupid or that it is the testers’ job to perform “quality assurance”. 
+Scrum’s practice of having a cross-functional team is useful, because it brings together people with widely different perspectives. 
+It is the manager’s job to build a trusting environment, so that different mental models can surface and get challenged, including, probably most importantly, 
+his own mental model.
+
+While discovering and probing into deeply-held mental models, the team might ask:
+
+> 1. Is the system written for testability? A system written without testability in mind is hard to perform unit and API tests on, 
+and testing is therefore done more on the UI level, which is fragile.
+> 2. Should developers have a testing mindset? Most developers know how to use XUnit, 
+but knowing how to write testMyMethod is not enough. They need to think like a tester: 
+where might this method fail, what if this parameter is null, and what will happen if this method fails.
+> 3. Should testers have good programing skills? Technical debt is a well-known concept these days, but test technical debt doesn’t get enough attention.
+Automation test is code, and requires good programing skills as well. 
+The automation framework needs to be written in a way that testers with less programming skills can easily write automation tests. 
+Like production code, automation tests need to be stable and perform well. 
+And since automation test cases serve as documentation for the system, they must be readable. 
+Badly-written automation test cases are not assets but debts.
+> 4. Do developers and testers know how to work with each other? While discussing user stories, are testers pointing out vulnerable areas for developers? 
+Are developers considering testability? 
+Or are developers handling user stories over to testers, and testers subsequently checking whether developers have done what they said they did?
+> 5. Is testing just an activity for verifying software implementation against specifications? 
+Or can testing be used to flesh out specifications and drive system design? 
+This is probably a mental model leap for both developers and testers, a new skill for both to master.
+
+Agile is hard, it will expose more issues more quickly, it is a challenge for both the team and management.
+I’ve witnessed teams that have been paralyzed by issues cropping up constantly, 
+they tried to use the same solutions or mental models to solve them, failed, and felt helpless. 
+As Albert Einstein said, “We cannot solve our problems with the same thinking we used when we created them.” It is a learning journey; 
+teams that look at issues holistically, understand the short-term and long-term consequences, pick up new skills, and update their mental models will be successful.
+
+About the Author
+----------------
+![alt](https://cdn.infoq.com/statics_s1_20160831-0533u1/resource/articles/how-make-agile-successful/en/resources/Chen-Ping.jpg)
+
+Chen Ping lives in Shanghai, China and graduated with a Masters Degree in Computer Science in 2005. 
+Since then she has worked for Lucent and Morgan Stanley. 
+Currently she is working for HP as a Development manager. 
+Outside of work, she likes to study Chinese medicine. 
+She blogs [here](http://perfspy.blogspot.kr/).
